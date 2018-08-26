@@ -1,0 +1,33 @@
+{
+  "name": "generator-gulp-your-mud",
+  "version": "0.1.0",
+  "description": "Use Gulp to streamline your Hackmud development.",
+  "files": [
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebWitch/gulp-your-mud.git"
+  },
+  "author": "Freya Gaynor <dev@webwitch.org>",
+  "keywords": [
+    "template",
+    "yeoman-generator",
+    "hackmud",
+    "gulp",
+    "scripting"
+  ],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/WebWitch/gulp-your-mud/issues"
+  },
+  "homepage": "https://github.com/WebWitch/gulp-your-mud#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "fuzzy": "^0.1.3",
+    "inquirer-checkbox-plus-prompt": "^1.0.1",
+    "inquirer-path": "^1.0.0-beta5",
+    "path": "^0.12.7",
+    "yeoman-generator": "^3.1.1"
+  }
+}

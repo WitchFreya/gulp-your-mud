@@ -10,13 +10,12 @@ Using the power of Gulp.js and npm, streamline and accelerate your Hackmud scrip
 - Cross-platform support.
 
 ## Installation
-- Install Yeoman Generator if you do not currently have it installed: ``npm i -g yeoman-generator``.
-- Clone this repository.
-- Run ``npm link`` inside of the new repository.
-- cd to wherever you want the parent directory of your repository (e.g. your Documents folder).
-- Create a new project: ``yo gulp-your-mud``.
-- Configure.
-- Start watching! ``npm run gulp``
+1. Install Yo if you do not currently have it: `npm i -g yo`
+2. Install the generator: `npm i -g generator-gulp-your-mud`
+3. Navigate to the parent directory of where you want to keep your projects (e.g. if you want a project to be `~/Documents/hackmud`, run `cd ~/Documents`)
+4. Create a new project: `yo gulp-your-mud`.
+5. Configure.
+6. cd in and start watching! ``npm run gulp``
 
 ## Usage
 - ``npm run gulp [-- <task(s)>]``: Run any of the Gulp tasks. You can also use ``gulp`` regularly if you have it installed globally. See below for tasks.

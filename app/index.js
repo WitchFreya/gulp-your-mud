@@ -161,6 +161,6 @@ module.exports = class extends Generator {
     }
 
     end() {
-        this.spawnCommand('gulp', ['import']);
+        this.spawnCommand('npm', ['run', 'gulp', '--', 'import']);
     }
 };

@@ -13,6 +13,7 @@ Using the power of Gulp.js and npm, streamline and accelerate your Hackmud scrip
 - Install Yeoman Generator if you do not currently have it installed: ``npm i -g yeoman-generator``.
 - Clone this repository.
 - Run ``npm link`` inside of the new repository.
+- cd to wherever you want the parent directory of your repository (e.g. your Documents folder).
 - Create a new project: ``yo gulp-your-mud``.
 - Configure.
 - Start watching! ``npm run gulp``
